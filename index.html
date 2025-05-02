@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Al-Mannur Nigeria Enterprises</title>
+  <style>
+    body {
+      background-color: #222;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 1rem;
+    }
+    header {
+      background-color: #7B3F00;
+      padding: 1rem;
+      text-align: center;
+    }
+    h1, h2, h3 {
+      margin: 0.5rem 0;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .product {
+      background-color: #333;
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+    }
+    .product button {
+      background-color: #ff9900;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Al-Mannur Nigeria Enterprises</h1>
+    <p>Dealers of All Kinds of Foodstuffs & Groceries</p>
+    <small>Location: Aminu Way, Sabon Gari Main Market, Zaria, Kaduna</small><br/>
+    <small>Phone/WhatsApp: 08036065968</small>
+  </header>
+
+  <h2>Our Products</h2>
+  <div class="products">
+    <div class="product">
+      <img src="/images/dangote-sugar.jpg" alt="50KG Dangote Sugar" />
+      <h4>50KG Dangote Sugar</h4>
+      <p>₦27000</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="/images/dangote-flour.jpg" alt="50KG Dangote Flour" />
+      <h4>50KG Dangote Flour</h4>
+      <p>₦25000</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="/images/spaghetti.jpg" alt="Golden Penny Spaghetti" />
+      <h4>Golden Penny Spaghetti</h4>
+      <p>₦850</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="/images/cooking-oil.jpg" alt="25L Cooking Oil" />
+      <h4>25L Cooking Oil</h4>
+      <p>₦20000</p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+
+</body>
+</html>
